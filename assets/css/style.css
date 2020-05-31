@@ -1,0 +1,29 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.board-cell {
+  width: 8px;
+  height: 8px;
+  border: thin solid black;
+}
+
+.live-cell {
+  background-color: red;
+}
